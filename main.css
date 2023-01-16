@@ -56,6 +56,8 @@ nav
 .nav-logo h3 {
   color: white;
   padding-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .nav-logo img {
@@ -89,6 +91,30 @@ nav
   border: none;
   padding-right: 1rem;
   font-size: 1.5rem;
+}
+
+.nav-btn i:hover {
+  animation: spin 0.5s ease-in-out forwards;
+}
+.nav-btn i {
+  animation: spin-out 0.5s ease-in-out forwards;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin-out {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
 }
 
 @media screen and (min-width: 768px) {
