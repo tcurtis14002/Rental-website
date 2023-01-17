@@ -128,8 +128,6 @@ nav
   .hide {
     display: none;
   }
-  .nav-links {
-  }
 }
 
 @keyframes spin {
