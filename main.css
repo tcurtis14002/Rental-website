@@ -2,7 +2,10 @@
 ===============================================================
 */
 :root {
+  /* colors */
   --white: #fff;
+  /* dimensions */
+  --max-width: 1120px;
 }
 * {
   margin: 0;
@@ -177,6 +180,29 @@ main
   background-color: #6c6c6c53;
   border-radius: 15px;
 }
+/* 
+================================================================
+footer
+================================================================
+*/
+.page-footer {
+  height: 4rem;
+  background: black;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: var(--max-width);
+}
+.page-footer p {
+  margin-bottom: zero;
+}
+
+.footer-logo,
+.page-footer a {
+  color: 008064;
+}
+
 /* 
 ================================================================
 template
