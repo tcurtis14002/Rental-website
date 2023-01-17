@@ -175,10 +175,36 @@ main
   z-index: 2;
   padding: 2rem;
   /* border: 4px solid green; */
-  margin: 2rem;
+  margin: 1rem;
   margin-right: 25rem;
   background-color: #6c6c6c53;
   border-radius: 15px;
+}
+/* 
+================================================================
+main 2
+================================================================
+*/
+.main2 {
+  border: 4px solid blue;
+  display: flex;
+  position: relative;
+}
+.main-img2 {
+  width: 95vw;
+  border-radius: 15px;
+  top: 0;
+}
+.main-content2 {
+  position: absolute;
+  z-index: 2;
+  padding: 2rem;
+  /* border: 4px solid green; */
+  margin: 1rem;
+
+  background-color: #6c6c6c53;
+  border-radius: 15px;
+  left: 20rem;
 }
 /* 
 ================================================================
@@ -200,7 +226,7 @@ footer
 
 .footer-logo,
 .page-footer a {
-  color: 008064;
+  color: #008064;
 }
 
 /* 
