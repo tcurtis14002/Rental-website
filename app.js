@@ -1,12 +1,7 @@
-const getElement = (selector) => {
-  const element = document.querySelector(selector);
-  if (element) {
-    return element;
-  } else {
-    throw(Error(
-      `Please check class names. Class ${element} does not exsist`
-    )
-    }
-  };
+const navBtn = document.querySelector(".nav-btn");
+const navLinks = document.querySelector(".hide");
 
-  const 
+navBtn.addEventListener("click", () => {
+  const nav = navLinks.classList;
+  nav.toggle("hide");
+});
