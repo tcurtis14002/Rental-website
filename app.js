@@ -3,7 +3,7 @@ const navLinks = document.querySelector(".hide");
 
 navBtn.addEventListener("click", () => {
   const nav = navLinks.classList;
-  nav.toggle("hide");
+  nav.toggle("show");
 });
 
 const date = document.getElementById("date");
