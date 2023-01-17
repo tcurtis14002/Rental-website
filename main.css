@@ -334,12 +334,20 @@ about
 .main-content p {
   padding-top: 1rem;
 }
-
 /* 
 ================================================================
-main about
+contact
 ================================================================
 */
+.main-content .contact {
+  position: absolute;
+  z-index: 2;
+  padding: 2rem;
+  /* border: 4px solid green; */
+  margin: 1rem;
+  margin-right: 25rem;
+  border-radius: 15px;
+}
 /* 
 ================================================================
 main about
