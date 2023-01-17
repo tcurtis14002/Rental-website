@@ -5,3 +5,7 @@ navBtn.addEventListener("click", () => {
   const nav = navLinks.classList;
   nav.toggle("hide");
 });
+
+const date = document.getElementById("date");
+const currentYear = new Date().getFullYear();
+date.textContent = currentYear;
