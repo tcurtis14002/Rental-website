@@ -180,6 +180,9 @@ main
   background-color: #6c6c6c53;
   border-radius: 15px;
 }
+.main-content p {
+  padding-top: 1rem;
+}
 /* 
 ================================================================
 main 2
@@ -205,6 +208,9 @@ main 2
   background-color: #6c6c6c53;
   border-radius: 15px;
   left: 20rem;
+}
+.main-content2 p {
+  padding-top: 1rem;
 }
 /* 
 ================================================================
